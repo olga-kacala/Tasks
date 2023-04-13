@@ -1,12 +1,14 @@
 import './App.css';
-import {JavaScript} from "./components/JavaScript";
+import {Letters} from "./components/Letters";
+import {Numbers} from './components/Numbers';
 
 function App() {
 
 
   return (
     <div className="App">
-     <JavaScript/>
+     <Letters/>
+     <Numbers/>
     </div>
   );
 }

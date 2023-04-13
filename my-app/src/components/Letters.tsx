@@ -1,6 +1,6 @@
 import React from "react";
 
-export const JavaScript = (): JSX.Element => {
+export const Letters = (): JSX.Element => {
   const sentence = "this is a sentence with big first letters";
 
   let newArr = sentence
