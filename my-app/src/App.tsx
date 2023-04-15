@@ -1,6 +1,7 @@
 import './App.css';
 import {Letters} from "./components/Letters";
 import {Numbers} from './components/Numbers';
+import {Loop} from "./components/Loop";
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
      <Letters/>
      <Numbers/>
+     <Loop/>
     </div>
   );
 }
