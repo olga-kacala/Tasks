@@ -3,6 +3,7 @@ import React from "react";
 export const Letters = (): JSX.Element => {
 
   const sentence = "this is a sentence with big first letters";
+
   let newArr = sentence
       .split(" ")
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))

@@ -2,6 +2,7 @@ import React from "react";
 
 export const Numbers = ():JSX.Element => {
 const numbers = [3,3,11,11,5,7];
+
 const numberCountMap: { [key: string]: { count: number, index?: number } } = {};
 let maxFreq = 1;
 let mostFrequentNums: number[] = [];
