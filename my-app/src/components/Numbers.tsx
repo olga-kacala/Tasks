@@ -1,7 +1,7 @@
 import React from "react";
 
 export const Numbers = ():JSX.Element => {
-const numbers = [3,3,11,11,5,7];
+const numbers = [0,0,3,3,11,11,5,7];
 
 const numberCountMap: { [key: string]: { count: number, index?: number } } = {};
 let maxFreq = 1;
@@ -21,7 +21,11 @@ numbers.forEach((num, index)=>{
         numberCountMap[num] = {count:1, index};
     }
 })
-const result = mostFrequentNums[0] || null;
+// const result = mostFrequentNums[0] || null;
+
+const result = mostFrequentNums.includes(0) ? 0 : mostFrequentNums[0] || null;
+
+
   
     return (
 <div>
