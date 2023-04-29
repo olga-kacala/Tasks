@@ -22,6 +22,7 @@ numbers.forEach((num, index)=>{
     }
 })
 // const result = mostFrequentNums[0] || null;
+// not working with 0 
 
 const result = mostFrequentNums.includes(0) ? 0 : mostFrequentNums[0] || null;
 
