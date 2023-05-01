@@ -16,3 +16,5 @@ function App() {
 }
 
 export default App;
+
+//what is the difference between map and for each?
