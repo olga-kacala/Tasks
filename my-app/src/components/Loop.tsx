@@ -15,6 +15,8 @@ export const Loop = (): JSX.Element => {
 // }
 // }
 
+//what will be in cosnolelog?
+
 let a = 1;
 let b = ++a;
 let c = a++;
